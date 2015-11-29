@@ -1,9 +1,9 @@
 <?php if (!defined('THINK_PATH')) exit();?><html>
 <head>
 	<title>北京</title>
-	<link rel="stylesheet" type="text/css" href="/lagou/Public/Home/css/company.css">
-	<link href="/lagou/Public/Static/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<script type="text/javascript" src="/lagou/Public/Home/js/jquery-1.8.3.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/Public/Home/css/company.css">
+	<link href="/Public/Static/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<script type="text/javascript" src="/Public/Home/js/jquery-1.8.3.min.js"></script>
 </head>
 <body>
 
@@ -18,7 +18,7 @@
 			<ul class="lunbo_ul" >
 				<li id="lid1">
 					<div class="lunbo_p">	
-						<img src="/lagou/Public/Home/img/nv.png">
+						<img src="/Public/Home/img/nv.png">
 						<span>国内最大的社交电商平台</span>
 					</div>
 					<div class="lunbo_cont">
@@ -33,7 +33,7 @@
 				</li>
 				<li id="lid2">
 					<div class="lunbo_p">	
-						<img src="/lagou/Public/Home/img/guazi.jpg">
+						<img src="/Public/Home/img/guazi.jpg">
 						<p>国内最大的社交电商平台</p>
 					</div>
 					<div class="lunbo_cont">
@@ -47,7 +47,7 @@
 				</li>
 				<li id="lid3">
 					<div class="lunbo_p">	
-						<img src="/lagou/Public/Home/img/02.jpg">
+						<img src="/Public/Home/img/02.jpg">
 						<p>国内最大的社交电商平台</p>
 					</div>
 					<div class="lunbo_cont">
@@ -61,7 +61,7 @@
 				</li>
 				<li id="lid4">
 					<div class="lunbo_p">	
-						<img src="/lagou/Public/Home/img/jiao.jpg">
+						<img src="/Public/Home/img/jiao.jpg">
 						<p>国内最大的社交电商平台</p>
 					</div>
 					<div class="lunbo_cont">
@@ -75,7 +75,7 @@
 				</li>
 				<li id="lid5">
 					<div class="lunbo_p">	
-						<img src="/lagou/Public/Home/img/qian.png">
+						<img src="/Public/Home/img/qian.png">
 						<p>国内最大的社交电商平台</p>
 					</div>
 					<div class="lunbo_cont">
@@ -96,7 +96,7 @@
 			<ul class="lunbo_ul" >
 				<li id="lid1">
 					<div class="lunbo_p">	
-						<img src="/lagou/Public/Home/img/mo.jpg">
+						<img src="/Public/Home/img/mo.jpg">
 						<span>国内最大的社交电商平台</span>
 					</div>
 					<div class="lunbo_cont">
@@ -111,7 +111,7 @@
 				</li>
 				<li id="lid2">
 					<div class="lunbo_p">	
-						<img src="/lagou/Public/Home/img/02.jpg">
+						<img src="/Public/Home/img/02.jpg">
 						<p>国内最大的社交电商平台</p>
 					</div>
 					<div class="lunbo_cont">
@@ -125,7 +125,7 @@
 				</li>
 				<li id="lid3">
 					<div class="lunbo_p">	
-						<img src="/lagou/Public/Home/img/02.jpg">
+						<img src="/Public/Home/img/02.jpg">
 						<p>国内最大的社交电商平台</p>
 					</div>
 					<div class="lunbo_cont">
@@ -139,7 +139,7 @@
 				</li>
 				<li id="lid4">
 					<div class="lunbo_p">	
-						<img src="/lagou/Public/Home/img/02.jpg">
+						<img src="/Public/Home/img/02.jpg">
 						<p>国内最大的社交电商平台</p>
 					</div>
 					<div class="lunbo_cont">
@@ -153,7 +153,7 @@
 				</li>
 				<li id="lid5">
 					<div class="lunbo_p">	
-						<img src="/lagou/Public/Home/img/02.jpg">
+						<img src="/Public/Home/img/02.jpg">
 						<p>国内最大的社交电商平台</p>
 					</div>
 					<div class="lunbo_cont">
@@ -175,7 +175,7 @@
 			<ul class="lunbo_ul" >
 				<li id="lid1">
 					<div class="lunbo_p">	
-						<img src="/lagou/Public/Home/img/mo.jpg">
+						<img src="/Public/Home/img/mo.jpg">
 						<span>国内最大的社交电商平台</span>
 					</div>
 					<div class="lunbo_cont">
@@ -190,7 +190,7 @@
 				</li>
 				<li id="lid2">
 					<div class="lunbo_p">	
-						<img src="/lagou/Public/Home/img/mo.jpg">
+						<img src="/Public/Home/img/mo.jpg">
 						<p>国内最大的社交电商平台</p>
 					</div>
 					<div class="lunbo_cont">
@@ -204,7 +204,7 @@
 				</li>
 				<li id="lid3">
 					<div class="lunbo_p">	
-						<img src="/lagou/Public/Home/img/mo.jpg">
+						<img src="/Public/Home/img/mo.jpg">
 						<p>国内最大的社交电商平台</p>
 					</div>
 					<div class="lunbo_cont">
@@ -218,7 +218,7 @@
 				</li>
 				<li id="lid4">
 					<div class="lunbo_p">	
-						<img src="/lagou/Public/Home/img/mo.jpg">
+						<img src="/Public/Home/img/mo.jpg">
 						<p>国内最大的社交电商平台</p>
 					</div>
 					<div class="lunbo_cont">
@@ -232,7 +232,7 @@
 				</li>
 				<li id="lid5">
 					<div class="lunbo_p">	
-						<img src="/lagou/Public/Home/img/mo.jpg">
+						<img src="/Public/Home/img/mo.jpg">
 						<p>国内最大的社交电商平台</p>
 					</div>
 					<div class="lunbo_cont">
