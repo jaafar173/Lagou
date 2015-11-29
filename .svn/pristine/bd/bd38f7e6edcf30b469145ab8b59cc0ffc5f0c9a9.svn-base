@@ -1,0 +1,40 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="CONTENT-TYPE" charset="UTF-8" content="text/html">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/Public/Static/plugins/jquery.js"></script>
+    <script src="/Public/Static/plugins/jquery-2.0.2.js"></script>
+    <script src="/Public/Static/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/Public/Admin/css/login.css"/>
+    <link rel="stylesheet" href="/Public/Static/plugins/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/Public/Static/plugins/font-awesome/css/font-awesome.min.css"/>
+    <title>后头管理系统</title>
+</head>
+<body>
+    <div class="container">
+        <div id="signForm">
+            <span style="text-align: center"><h2>后台管理系统</h2></span>
+            <form action="/Index/Signin" method="post" class="form-horizontal">
+                <div class="form-group form-modify">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="icon-user"></i></span>
+                        <input type="text" name="username" placeholder="用户名" required/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="icon-lock"></i></span>
+                        <input type="password" name="pwd" placeholder="密码" required/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="btn">
+                        <button type="submit" class="btn btn-primary">登录后台</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

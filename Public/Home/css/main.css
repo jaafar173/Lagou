@@ -1,0 +1,297 @@
+body{
+    line-height: 22px;
+}
+.container{
+    border: 1px solid red;
+    height: 800px;
+}
+#sidebar{
+    width: 230px;
+    /*float: left;*/
+    position: relative;
+    /*border: 1px solid red;*/
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.mainNavs{
+    background: #fafafa;
+}
+.menu_box{
+     background: #fff;
+    border: 2px solid #c9cbce;
+    z-index: 102;
+    border-right:0; 
+    /*position: relative;*/
+    /*border: 1px solid green; */
+}
+.menu_main{
+    padding: 6px 12px;
+    border: 2px solid #fafafa;
+    /*border-right:0;*/
+    overflow: hidden;
+    position: relative; 
+}
+.menu_main h2{
+    font-size: 18px;
+    padding-left: 8px;
+}
+.menu_main span{
+    float: right;
+}
+.menu_main a{
+    color: #555;
+    padding-left: 8px;
+    margin: 0 6px 6px 0;
+    white-space: nowrap;
+}
+.menu_main a:hover{
+    color: #00b38a;
+}
+.menu_sub{
+     
+    width: 540px;
+    position: absolute;
+    padding: 15px 30px 5px;
+    left: 228px;
+    top: 0px;
+    border: 2px solid #c9cbce;
+    background: #fff;
+    display: block;
+    z-index: 101;
+}
+.active{
+    background: #fff;
+    border: 2px solid #c9cbce;
+    z-index: 102;
+    border-right:0; 
+}
+.reset dd a{
+    color: #555;
+    margin:0 10px 10px 0;
+    line-height: 20px;
+}
+.reset dd a:hover{
+    color: #00b38a;
+}
+.reset dt a{
+    color: #555;
+}
+.reset dt a:hover{
+    color: #00b38a;
+}
+
+
+/*右部*/
+.content{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#search{
+    border: 2px solid #00b38a;
+    border-right:0; 
+    padding: 5px 8px 5px 10px;
+}
+.input-group{
+    width: 680px;
+}
+#btn_search{
+    float: left;
+    width: 120px;
+    background: #00b38a;
+    padding: 8px 8px 5px 10px;
+    margin-top: -1px;
+}
+.hotSearch {
+    overflow: hidden;
+    margin: 6px 0 18px;
+}
+.hotSearch dt{
+    width:70px;
+    font-size: 14px;
+    float: left;
+}
+.hotSearch dd{
+    float: left;
+    margin:0 8px;
+}
+.banner_bg{
+    float: left;
+    list-style: none;
+
+}
+.thumbs{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+.thumbs li{
+    margin-bottom: 7px;
+    border: 3px solid #d3d3d3;
+}
+.data_thumbs{
+    float: left;
+    list-style-type: none;
+   
+}
+.data_thumbs li{
+    float: left;
+    background: #fff;
+    margin-right: 12px;
+    border: 2px solid #fafafa;
+    position: relative;
+}
+.data_thumbs li a{
+    text-decoration: none;
+}
+.data_thumbs li a em{
+    display: block;
+    width: 100px;
+    height: 5px;
+    margin-left: 6px;
+    background: rgba(255,255,255,.3);
+}
+.data_thumbs li a h2{
+    font-size: 24px;
+    height: 24px;
+    color: white;
+    line-height: 24px;
+    margin: 10px 8px 8px;
+    font-weight: 400;
+    text-align: center;
+    overflow: hidden;
+}
+.data_thumbs li a p{
+    color: white;
+    font-size: 12px;
+    margin: 6px 8px;
+    line-height: 18px;
+}
+.hot_info{
+    position: relative;
+    width: 113px;
+    height: 113px;
+    background: #00b38a;
+    opacity: 0.8;
+    display: none;
+}
+
+/*职位列表*/
+#job-tab{
+    float: left;
+    background: #f6f6f6;
+    width:94%;
+}
+#tab-content{
+    float: left;
+}
+.position-list-item{
+    float: left;
+    width: 744px;
+    height: 123px;
+    overflow: hidden;
+    border-bottom: 1px dashed #e1e1e1;
+    /*border: 1px solid red ;*/
+}
+.pli-top{
+    width: 740px;
+    height: 70%;
+    background-color: #fff;
+    float: left;
+    /*padding-top: 22px;*/
+    padding-left: 15px;
+    /*overflow: hidden;*/
+    /*border: 2px solid green;*/
+}
+.pli-top a{
+    color: #00b38a;
+}
+.pli-top h2 span{
+    margin-left: 6px;
+    color: #00b38a;
+}
+.fl{
+    float: left;
+}
+.time{
+    color: #999;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.jd{
+    float: left;
+    width:400px;
+    height:22px;
+    /*border: 1px solid pink;*/
+}
+/*.jd span{
+    margin-right:15px; 
+}*/
+.position-name{
+    height: 34px;
+}
+.position-name h2{
+    font-size: 16px;
+}
+.pli-top-l{
+    width: 50%;
+    height: 100%;
+    margin-right: 20px;
+}
+.salary {
+    font-size: 16px;
+    color: #fa6041;
+    margin-right: 20px;
+}
+
+.pli-top-r{
+    width: 40%;
+    height: 100%;
+    /*border: 1px solid red;*/
+}
+.fr{
+    float: right;
+}
+.company-name{
+    padding-top:10px; 
+    width: 100%;
+    height: 60%;
+    color: #00b38a;
+}
+.company-name a{
+    font-size: 16px;
+    line-height: 34px;
+}
+.industry {
+    width: 294px;
+    height: 28px;
+}
+
+
+.pli-btm {
+    float: left;
+    height: 30%;
+    width: 100%;
+    background-color: #fafafa;
+    /*border: 2px solid blue;*/
+
+}
+.pli-btm-l{
+    width: 60%;
+}
+.pli-btm-l span{
+    /*margin-top: 5px;*/
+    line-height: 36px;
+    padding-left: 15px;
+}
+.pli-btm-r{
+    width: 40%;
+}
+.pli-btm-r span {
+    display: inline-block;
+    padding: 0 3px;
+    border: 1px solid #dcdcdc;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}

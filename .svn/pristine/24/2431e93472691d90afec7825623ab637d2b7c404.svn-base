@@ -1,0 +1,108 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="view-port" content="width=device-width initial-scale=1"/>
+    <script src="/Public/Static/plugins/jQuery-2.0.2.js"></script>
+    <script src="/Public/Static/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/Public/Static/plugins/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/Public/Static/plugins/bootstrap/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="/Public/Static/plugins/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/Public/Admin/css/base.css"/>
+    <title></title>
+</head>
+<body>
+    <!--<header>-->
+        <!--<nav class="nav navbar-default navbar-fixed-top">-->
+            <!--<div class="container-fluid">-->
+                <!--<div class="navbar-header">-->
+                    <!--<button type="button" class="navbar-toggle" data-toggle="collapse"></button>-->
+                    <!--<div class="brand">-->
+                        <!--<a class="navbar-brand" href="#">-->
+                            <!--<span>BRAND</span>-->
+                        <!--</a>-->
+                        <!--<a class="toogle pull-right">-->
+                            <!--<i class="icon-angle-right"></i>-->
+                        <!--</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</nav>-->
+    <!--</header>-->
+    <div id="header" class="navbar-default navbar">
+        <div class="dropdown pull-right" style="padding-right: 60px;">
+            <button type="button" class="btn dropdown-toggle" id="dropdownMenu" data-toggle="dropdown">
+                <span class="admin fa arrow" style="color: darkred"  >管理员</span>
+            </button>
+            <ul class="dropdown-menu" role="menu" >
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo U('Public/signin');?>">登出</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="<?php echo U('Public/password');?>">修改密码</a></li>
+            </ul>
+        </div>
+
+        <div class="brand">
+            <a class="navbar-brand" href="#">
+                <span><img src="/Public/Static/img/logo.png" alt="brand" height="40px"></span>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="body slide">
+        <div class="row">
+            <!--侧导航栏开始-->
+            <div class="col-md-3">
+                <div id="page-container" class="container-fluid">
+                    <div class="sidebar">
+                        <div class="sidebar-nav navbar-collapse navbar-default" role="navigation">
+                            <ul class="nav" id="side-menu">
+                                <li>
+                                    <a href="#"><i class="icon-dashboard"></i>系统总览 <span class="icon-angle-left navbar-right"></span></a>
+                                    <ul class="nav nav-second-level">
+                                        <li>XXX</li>
+                                    </ul>
+                                </li>
+                                <li class="active">
+                                    <a href=""><span class="icon-folder-open">系统总览</span></a>
+                                    <ul class="nav nav-second-level">
+                                        <li><a href="">XXX</a></li>
+                                        <li>XXX</li>
+                                        <li>XXX</li>
+                                    </ul>
+                                </li>
+                                <li><a href=""><span class="icon-folder-open">系统总览</span></a>
+                                    <ul class="nav nav-second-level">
+                                        <li>XXX</li>
+                                        <li>XXX</li>
+                                        <li>XXX</li>
+                                    </ul>
+                                </li>
+                                <li><a href=""><span class="icon-folder-open">系统总览</span></a>
+                                    <ul class="nav nav-second-level">
+                                        <li>XXX</li>
+                                        <li>XXX</li>
+                                        <li>XXX</li>
+                                    </ul>
+                                </li>
+                                <li><a href=""><span class="icon-folder-open">系统总览</span></a>
+                                    <ul class="nav nav-second-level">
+                                        <li>XXX</li>
+                                        <li>XXX</li>
+                                        <li>XXX</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--侧导航结束-->
+            <!--主要内容区-->
+            <div class="col-md-9">
+
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

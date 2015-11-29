@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="renderer" content="webkit">
+	<!--<meta http-equiv="X-UA-Compatible" content="IE=10;IE=9;IE=8;IE=7;IE=EDGE">-->
+	<meta content="拉勾网是最权威的互联网行业招聘网站,提供全国真实的互联网招聘信息,工资不面议当面谈,找工作,招聘网,寻人才就来拉勾网,互联网行业找工作首选拉勾网" name="description">
+	<meta content="互联网招聘,找工作,招聘网,人才网" name="keywords">
+	<meta name="baidu-site-verification" content="QIQ6KC1oZ6" />
+
+	<meta charset="UTF-8">
+	<title>拉钩网-专业的求职网站</title>
+	<script src="__STATIC__/plugins/jquery.js"></script>
+	<link rel="stylesheet" href="__CSS__/yipai.css" type="text/css">
+	<div id="header">
+		<div id="header_left"><img src="__IMG__/app_icon.png" id="img1"></div>  <div id="header_midum">&nbsp;<span style="color:#08cc7b">拉钩APP</span>&nbsp;<span style="color:white;">|&nbsp;&nbsp;我要招人</span></div>
+		<div id="header_right"><a href="">登录 &nbsp;&nbsp;</a>|<a href="">&nbsp;&nbsp;注册</a></div>
+	</div>
+	<div id="logo">
+		<div id="lg"><img src="__IMG__/logo.png" alt=""></div>
+		<div id="yipai">&nbsp;&nbsp;|&nbsp;&nbsp;一拍</div>
+		<div id="logo_click1">一拍首页</div><div id="logo_click2">使用攻略</div>
+		<div id="last">
+		<div id="huilagou"><img src="__IMG__/gobackhover.jpg"></div>
+		<div id="pa">回拉钩</div>
+		</div>
+	</div>
+</head>
+<body>
+	<div id="vedio">
+			 <h1>&nbsp;</h1>
+		     <h1>拉勾一拍，重新定义互联网人才拍卖</h1>
+			 <h1>&nbsp;</h1>
+		     <p>[ 3年+工作经验，30W+年薪，互联网技术、产品、设计、运营 ]</p>
+
+		     <p>1V1专业顾问私人订制</p>
+
+		     <p>限时展示，风尖互联网企业机会任你选</p>
+			 <h1>&nbsp;</h1>
+		     <div id="bofang"><img src="__IMG__/bofang.png" alt=""></div>
+		     <h1>&nbsp;</h1>
+		     <center>
+		     <div id="zhuce"><a href="">我要申请</a></div>
+		     </center>
+	</div>
+	<center>
+	<div id="dajia">
+			<h1>&nbsp;</h1>
+			<h1>大咖专场</h1>
+			<div>
+			<div class="zhuanchang">
+				<h3>你的Boss你来挑</h3>
+	            <p>采用企业邀约制，聚集众多优质企业参与，让出色的你获得最大的选择权。</p>
+			</div>
+			<div class="zhuanchang">
+				<h3>个性化定制服务</h3>
+	            <p>每位用户指定一位专属顾问全程跟踪服务；根据用户的独特情况，提供个性化的职业咨询。换工作不再废心废力。</p>
+			</div>		
+			<div class="zhuanchang">
+				<h3>保障隐私防打扰</h3>
+                 <p>不必担心隐私泄露，私密信息保护、屏蔽企业权力让你无后顾之忧。</p>
+			</div>		
+			<div class="zhuanchang">
+				<h3>企业及时反馈</h3>
+                <p>透明顺畅的流程加上尽职尽责的顾问，不必再苦苦等待企业的反馈。</p>
+			</div>		
+	</div>
+	</div>
+	</center>
+</body>
+<script type="text/javascript">
+	$(function(){
+		$("a").mouseover(function(){
+			$(this).css("color","white");
+		}).mouseout(function(){
+			$(this).css("color","#585858");
+		});
+	});
+</script>
+</html>

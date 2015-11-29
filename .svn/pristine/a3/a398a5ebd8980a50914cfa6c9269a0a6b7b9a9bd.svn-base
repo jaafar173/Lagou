@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8" content="text/html">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<script src="__STATIC__/plugins/bootstrap/js/bootstrap.min.js"></script>-->
+    <link rel="stylesheet" href="__CSS__/header.css"/>
+    <link rel="stylesheet" href="__STATIC__/plugins/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="__STATIC__/plugins/font-awesome/css/font-awesome.min.css"/>
+    <script src="__STATIC__/plugins/jquery-2.0.2.js"></script>
+    <script src="__STATIC__/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <title>后头管理系统</title>
+</head>
+<body>
+    <!-- 头部 -->
+    <div id="lg_header">
+        <!-- 顶部黑色导航栏 -->
+        <div id="lg_tbar">
+            
+        </div> 
+        <div class="lg_tnav_wrap">
+            <img src="__IMG__/lagou_logo.png" alt="logo">
+        </div>
+        <!-- 选择城市 -->
+        <div id="suggestCity">
+            <strong>北京站</strong>
+            <em id="changeCity_btn" data-toggle="modal" data-target="#myModal">[切换城市]</em>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">切换城市</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="content_herader">
+                        <h4>亲爱的用户您好:</h4>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;切换城市分站，让我们为您提供更准确的职位信息。</p>
+                        <hr>
+                        <span>点击进入</span>
+                        <a href="javascript:void(0)" class="tab_focus">北京站</a>  
+
+                        <span>&nbsp;&nbsp;   or  切换到其他城市</span>
+                    
+                    </div>
+                    <ul class="clearfix list_city">
+                        <li><a href="javascript:void(0)" class="tab_focus">全国站</a></li>
+                        <li><a href="javascript:void(0)" class="tab_focus">全国站</a></li>
+                        <li><a href="javascript:void(0)" class="tab_focus">全国站</a></li>
+                        <li style="display:block;width:auto;float:none;clear:both;"></li>
+                        <li><a href="javascript:void(0)" class="tab_focus">全国站</a></li>
+                        <li><a href="javascript:void(0)" class="tab_focus">全国站</a></li>
+                        <li><a href="javascript:void(0)" class="tab_focus">全国站</a></li>
+                    </ul>
+                        <br>
+                        <p>其他城市正在开通中，敬请期待～</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button type="button" class="btn btn-primary">更改</button>
+                  </div>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+        </div>
+        <!-- 城市选择结束 -->
+        <!-- <ul class="navbar">
+            <li><a href="">首页</a></li>
+            <li><a href="">公司</a></li>
+            <li><a href="">一拍</a></li>
+        </ul> -->
+        <ul class="nav nav-pills">
+              <li role="presentation"><a href="#">首页</a></li>
+              <li role="presentation"><a href="{:U('Com/index')}">公司</a></li>
+              <li role="presentation"><a href="{:U('Yipai/index')}">一拍</a></li>
+        </ul>
+    </div>
+   
+</body>
+<script type="text/javascript">
+    $(function(){
+        $(".tab_focus").each(function(){
+            $(this).mouseover(function(){
+                $(this).css({'border':'2px solid #00B38A'});
+            }).mouseout(function(){
+                $(this).css({'border':'2px solid #ccc'});
+            });
+        });
+    });
+</script>
+</html>

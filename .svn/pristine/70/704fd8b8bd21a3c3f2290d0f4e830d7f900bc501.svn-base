@@ -1,0 +1,107 @@
+<html>
+<head>
+	<title>北京</title>
+	<link rel="stylesheet" type="text/css" href="__CSS__/company.css">
+	<script type="text/javascript" src="__JS__/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+	<!-- 顶部 -->
+	<!--北京logo -->
+	<div class="logo_bac">
+		<div class='logo_content'><h2>公司大事件</h2></div>
+		<!-- 图片轮播显示 -->
+		<div class="lunbo">
+			<ul class="lunbo_ul" style="width:100%">
+				<li id="lid1">
+					<div class="lunbo_p">	
+						<img src="__IMG__/mo.jpg">
+						<span>国内最大的社交电商平台</span>
+					</div>
+					<div class="lunbo_cont">
+							<p align="absmiddle">
+								从三线城市、小微企业入手， P2B 平台 “钱升钱” 获千万级美金 B 轮融资
+							</p>
+
+							<a href=""> AAAA </a>
+
+					</div>
+				</li>
+				<li id="lid2">
+					<div class="lunbo_p">	
+						<img src="__IMG__/guazi.jpg">
+						<p>国内最大的社交电商平台</p>
+					</div>
+					<div class="lunbo_cont">
+							<p>从三线城市、小微企业入手， P2B 平台 “钱升钱” 获千万级美金 B 轮融资</p>
+							<a>AAAA</a>
+
+
+					</div>
+				</li>
+				<li id="lid3">
+					<div class="lunbo_p">	
+						<img src="__IMG__/02.jpg">
+						<p>国内最大的社交电商平台</p>
+					</div>
+					<div class="lunbo_cont">
+							<p>从三线城市、小微企业入手， P2B 平台 “钱升钱” 获千万级美金 B 轮融资</p>
+
+							<a>AAAA</a>
+
+					</div>
+				</li>
+				<li id="lid4">
+					<div class="lunbo_p">	
+						<img src="__IMG__/jiao.jpg">
+						<p>国内最大的社交电商平台</p>
+					</div>
+					<div class="lunbo_cont">
+							<p>从三线城市、小微企业入手， P2B 平台 “钱升钱” 获千万级美金 B 轮融资</p>
+
+							<a>AAAA</a>
+
+
+					</div>
+				</li>
+				<li id="lid5">
+					<div class="lunbo_p">	
+						<img src="__IMG__/qian.png">
+						<p>国内最大的社交电商平台</p>
+					</div>
+					<div class="lunbo_cont">
+							<p>从三线城市、小微企业入手， P2B 平台 “钱升钱” 获千万级美金 B 轮融资</p>
+
+							<a>AAAA</a>
+						</div>
+				</li>
+
+			</ul>
+
+
+		</div>
+
+
+	</div>	
+</body>
+<script type="text/javascript">
+	$(function(){
+		var list=$("li").length;
+
+		// for(i=1;i<=list;i++){
+			$("li").each(function(){
+				$(this).mouseover(function(){
+
+				$(this).find(".lunbo_cont").css("display","block");
+
+			}).mouseout(function(){
+
+			$(".lunbo_cont").css({display:"none"});
+
+			});	
+			})	
+		// }
+	});
+
+
+</script>
+</html>

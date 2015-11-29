@@ -1,0 +1,12 @@
+[ 2015-08-29T23:02:54+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+

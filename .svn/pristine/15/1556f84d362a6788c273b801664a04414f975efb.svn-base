@@ -1,0 +1,531 @@
+[ 2015-10-06T01:07:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000258s ]
+
+[ 2015-10-06T01:07:51+08:00 ] 127.0.0.1 /Public/Home/css/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+ERR: 无法加载控制器:Public
+
+[ 2015-10-06T01:07:51+08:00 ] 127.0.0.1 /Index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+ERR: 非法操作:code
+
+[ 2015-10-06T01:08:00+08:00 ] 127.0.0.1 /Public/Home/css/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+ERR: 无法加载控制器:Public
+
+[ 2015-10-06T01:08:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000258s ]
+
+[ 2015-10-06T01:08:58+08:00 ] 127.0.0.1 /Public/Home/css/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载控制器:Public
+
+[ 2015-10-06T01:08:58+08:00 ] 127.0.0.1 /code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+ERR: 无法加载控制器:Code
+
+[ 2015-10-06T01:08:59+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000249s ]
+
+[ 2015-10-06T01:08:59+08:00 ] 127.0.0.1 /code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+ERR: 无法加载控制器:Code
+
+[ 2015-10-06T01:08:59+08:00 ] 127.0.0.1 /Public/Home/css/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+ERR: 无法加载控制器:Public
+
+[ 2015-10-06T01:09:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000251s ]
+
+[ 2015-10-06T01:09:34+08:00 ] 127.0.0.1 /Public/Home/css/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+ERR: 无法加载控制器:Public
+
+[ 2015-10-06T01:09:34+08:00 ] 127.0.0.1 /Home/Controller/Index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+ERR: 无法加载控制器:Home
+
+[ 2015-10-06T01:09:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000251s ]
+
+[ 2015-10-06T01:09:35+08:00 ] 127.0.0.1 /Home/Controller/Index/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+ERR: 无法加载控制器:Home
+
+[ 2015-10-06T01:09:35+08:00 ] 127.0.0.1 /Public/Home/css/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+ERR: 无法加载控制器:Public
+
+[ 2015-10-06T01:33:15+08:00 ] 127.0.0.1 /Index/Vcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+
+[ 2015-10-06T01:54:23+08:00 ] 127.0.0.1 /Index/Vcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+
+[ 2015-10-06T12:39:14+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `dis_admin` [ RunTime:0.0391s ]
+SQL: SELECT * FROM `dis_admin`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:15) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:15) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:15) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2015-10-06T12:39:14+08:00 ] 127.0.0.1 /Public/Home/css/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+ERR: 无法加载控制器:Public
+
+[ 2015-10-06T12:40:03+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `dis_admin` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `dis_admin` WHERE ( id=1 )  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:15) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:15) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:15) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000297s ]
+
+[ 2015-10-06T12:40:03+08:00 ] 127.0.0.1 /Public/Home/css/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+ERR: 无法加载控制器:Public
+
+[ 2015-10-06T12:40:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `dis_admin` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `dis_admin` WHERE ( id=1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:15) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:15) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:15) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000264s ]
+
+[ 2015-10-06T12:40:04+08:00 ] 127.0.0.1 /Public/Home/css/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+ERR: 无法加载控制器:Public
+
+[ 2015-10-06T12:41:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `zl_admin` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zl_admin` WHERE ( id=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:15) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:15) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:15) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2015-10-06T12:41:05+08:00 ] 127.0.0.1 /Public/Home/css/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+ERR: 无法加载控制器:Public
+
+[ 2015-10-06T12:41:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `zl_admin` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zl_admin` WHERE ( id=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:15) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:15) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:15) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000277s ]
+
+[ 2015-10-06T12:41:05+08:00 ] 127.0.0.1 /Public/Home/css/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+ERR: 无法加载控制器:Public
+
+[ 2015-10-06T12:41:30+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `zl_admin` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `zl_admin` WHERE ( id=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2015-10-06T12:41:30+08:00 ] 127.0.0.1 /Public/Home/css/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+ERR: 无法加载控制器:Public
+
+[ 2015-10-06T12:42:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `zl_admin` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zl_admin` LIMIT 5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000285s ]
+
+[ 2015-10-06T12:42:04+08:00 ] 127.0.0.1 /Public/Home/css/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+ERR: 无法加载控制器:Public
+
+[ 2015-10-06T12:43:14+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `zl_admin` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zl_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:13) /Users/jaafar/www/discuz/Framework/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000265s ]
+
+[ 2015-10-06T12:43:14+08:00 ] 127.0.0.1 /Public/Home/css/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+ERR: 无法加载控制器:Public
+
+[ 2015-10-06T13:34:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2015-10-06T13:34:35+08:00 ] 127.0.0.1 /Public/Home/css/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+ERR: 无法加载控制器:Public
+

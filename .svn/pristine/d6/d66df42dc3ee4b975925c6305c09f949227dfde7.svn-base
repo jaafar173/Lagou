@@ -1,0 +1,746 @@
+[ 2015-08-27T17:40:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Use of undefined constant Signin - assumed 'Signin' /Users/jaafar/www/discuz/Application/Runtime/Cache/Home/c699f1cb348e81f3cc93093423cfdd78.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:15) /Users/jaafar/www/discuz/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:15) /Users/jaafar/www/discuz/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php:15) /Users/jaafar/www/discuz/THINKPHP/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2015-08-27T17:40:29+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2015-08-27T17:50:06+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000267s ]
+
+[ 2015-08-27T17:50:06+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2015-08-27T17:50:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000294s ]
+
+[ 2015-08-27T17:50:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2015-08-27T17:50:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2015-08-27T17:50:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2015-08-27T17:50:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2015-08-27T17:50:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2015-08-27T17:50:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000263s ]
+
+[ 2015-08-27T17:50:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000285s ]
+
+[ 2015-08-27T17:51:18+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000257s ]
+
+[ 2015-08-27T17:51:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2015-08-27T17:51:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2015-08-27T17:51:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000275s ]
+
+[ 2015-08-27T17:51:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2015-08-27T17:51:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2015-08-27T17:51:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2015-08-27T17:51:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000261s ]
+
+[ 2015-08-27T17:51:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000302s ]
+
+[ 2015-08-27T17:51:30+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000256s ]
+
+[ 2015-08-27T17:51:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2015-08-27T17:51:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001418s ]
+
+[ 2015-08-27T17:51:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2015-08-27T17:51:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2015-08-27T17:51:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2015-08-27T17:51:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2015-08-27T17:51:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2015-08-27T17:51:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000256s ]
+
+[ 2015-08-27T17:51:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2015-08-27T17:51:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2015-08-27T17:51:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2015-08-27T17:51:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2015-08-27T17:55:54+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2015-08-27T17:58:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2015-08-27T17:59:30+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2015-08-27T17:59:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2015-08-27T18:02:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000265s ]
+
+[ 2015-08-27T18:02:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000292s ]
+
+[ 2015-08-27T18:02:18+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2015-08-27T18:02:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2015-08-27T18:05:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000290s ]
+
+[ 2015-08-27T18:05:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2015-08-27T18:06:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2015-08-27T18:07:22+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000297s ]
+
+[ 2015-08-27T18:07:49+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2015-08-27T18:10:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000257s ]
+
+[ 2015-08-27T18:10:08+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000285s ]
+
+[ 2015-08-27T18:12:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2015-08-27T18:12:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2015-08-27T18:13:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2015-08-27T18:13:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2015-08-27T18:13:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2015-08-27T18:13:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2015-08-27T18:15:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'test_print' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 39 行.
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'test_alter' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 41 行.
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'test_print' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000288s ]
+
+[ 2015-08-27T18:15:18+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'test_print' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 39 行.
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'test_alter' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 41 行.
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'test_print' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000293s ]
+
+[ 2015-08-27T18:16:59+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'test_print' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 39 行.
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'test_alter' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 41 行.
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'test_print' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2015-08-27T18:17:02+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'test_print' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 39 行.
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'test_alter' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 41 行.
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'test_print' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2015-08-27T18:18:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [2] array_walk_recursive() expects parameter 2 to be a valid callback, function 'show' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 22 行.
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'test_print' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 39 行.
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'test_alter' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 42 行.
+NOTIC: [2] array_walk() expects parameter 2 to be a valid callback, function 'test_print' not found or invalid function name /Users/jaafar/www/discuz/Application/Home/Controller/IndexController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+

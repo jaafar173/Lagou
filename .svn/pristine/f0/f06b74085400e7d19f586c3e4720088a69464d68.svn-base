@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="__CSS__/yheader.css" type="text/css">
+<div id="header">
+		<div id="header_left"><img src="__IMG__/app_icon.png" id="img1"></div>  <div id="header_midum">&nbsp;<span style="color:#08cc7b">拉钩APP</span>&nbsp;<span style="color:white;">|&nbsp;&nbsp;我要招人</span></div>
+		<div id="header_right"><a href="">登录 &nbsp;&nbsp;</a>|<a href="">&nbsp;&nbsp;注册</a></div>
+	</div>
+	<div id="logo">
+		<div id="lg"><img src="__IMG__/logo.png" alt=""></div>
+		<div id="yipai">&nbsp;&nbsp;|&nbsp;&nbsp;一拍</div>
+		<div id="logo_click1"><a href="__MODULE__/Yipai/index">一拍首页</a></div><div id="logo_click2"><a href="__MODULE__/Yipai/strategy">使用攻略</a></div>
+		<div id="last">
+		<div id="huilagou"><img src="__IMG__/gobackhover.jpg"></div>
+		<div id="pa">回拉钩</div>
+		</div>
+	</div>

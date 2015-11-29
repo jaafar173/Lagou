@@ -1,0 +1,126 @@
+<?php if (!defined('THINK_PATH')) exit();?><html>
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<link rel="stylesheet"  href="/Public/Static/css/logup.css" type="text/css">
+	<link rel="icon" href="/Public/Static/img/title.png" type="img/png"/>
+</head>
+<body>
+	<div class="hd">
+		<div class="hd_c1">
+			<div class="header_box">
+				<a href="">设为首页</a>
+				<a href="">收藏本站</a>
+			</div>
+		</div>
+		<a id="top"></a>
+		<div class="hd_c2">
+			<div class="hd_c2_top">
+				<div class="logo">
+					<img src="/Public/Static/img/logo.png" alt="">
+				</div>
+				<div class="info">
+					<form action="<?php echo U(Signin);?>" method="post">
+						<table cellspacing="3px" cellpadding="4px" text-align="center">
+							<tr>
+								<td>用户名</td>
+								<td><input type="text" name="username"></td>
+								<td><input type="checkbox" name="checked" value="1">自动登录</td>
+								<td>找回密码</td>
+							</tr>
+							<tr>
+								<td>密码</td>
+								<td><input type="password" name="pwd"></td>
+								<td><input type="submit" name="submit" value="登陆" width="30px"></td>
+								<td>立即注册</td>
+							</tr>
+						</table>
+					</form>
+				</div>
+			</div>
+			<div id="nv">
+				<ul>
+					<li><a href="">论坛首页</a></li>
+					<li><a href="">在线电影</a></li>
+					<li><a href="">美女图集</a></li>
+					<li><a href="">种子下载</a></li>
+					<li><a href="">在线学习</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="hd_c3">
+			<form action="">
+				<table cellspacing="4px">
+					<tr>
+						<td><input type="text"></td>
+						<td>
+						<img src="/Public/Static/img/search.jpg" alt="search">
+						</td>
+						<td><strong>搜索:</strong></td>
+						<td class="hd_c3_text">活动</td>
+						<td class="hd_c3_text">交友</td>
+						<td class="hd_c3_text">Discuz</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+	<div class="cont">
+		<div class="cont_t">
+			<div class="cont_t_t">
+				<h2 class="cont_h"><a href="">立即注册</a></h2>
+				<span><a href="">已有账号?现在登陆</a></span>
+			</div>
+		</div>
+		<div class="cont_b">
+			<form action="Signin/signin" method="post">
+				<table class="reg_info">
+					<tr>
+						<td class="reg_table_left"><span>*</span>用户名:</td>
+						<td class="reg_table_right"><input type="text" class="username" name="username" placeholder="请输入用户名"></td>
+					</tr>
+					<tr>
+						<td class="reg_table_left"><span>*</span>密码:</td>
+						<td class="reg_table_right"><input type="password" class="pwd" name="pwd" placeholder="请输入密码"></td>
+					</tr>
+					<tr>
+						<td class="reg_table_left"><span>*</span>确认密码:</td>
+						<td class="reg_table_right"><input type="password" class="confirm" placeholder="请确认密码"></td>
+					</tr>
+					<tr>
+						<td class="reg_table_left"><span>*</span>email:</td>
+						<td class="reg_table_right"><input type="text" class="email" name="email" placeholder="请输入邮件地址"></td>
+					</tr>
+					<tr>
+						<td rowspan="2" class="reg_table_left"><span>*</span>验证码:</td>
+						<td rowspan="2" ><input type="text" name="yanzhen"><a href="">换一个</a><br>
+						<p style="font-size:15px">输入下图中的字符</p><br>
+					       <img src="/Public/Static/img/yanzhengma.jpg" alt="yanzheng">
+						</td>
+					</tr>
+					<tr></tr>
+					 <tr>
+						 <td></td>
+						<td><input type="image" src="/Public/Static/img/tijiao.jpg"></td>
+					</tr>
+					<tr>
+						<td class="reg_table_left">快捷登陆:</td>
+						<td><input type="image" src="/Public/Static/img/qq_login.gif"><input type="image" src="/Public/Static/img/wechat_login.png"/></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+	<div class="footer">
+		<a href="#top"><img src="/Public/Static/img/rtop.jpg" alt="rtop" id="rtop"></a>
+		<div class="f_left">
+			<p style="font-size:14px">Powerd by <strong>Discuz!</strong>X3.2</p><br>
+			<p>2011-2013 Comsgnz inc.</p>
+		</div>
+		<div class="f_right">
+			<p style="font-size:14px">Archiver<span>|</span>手机版<span>|</span>小黑屋<span>|</span>Comsez Inc.</p><br>
+			<p>GMT+8,2015-8-9,22:50,sssssssssss</p>
+		</div>
+	</div>
+</body>
+</html>

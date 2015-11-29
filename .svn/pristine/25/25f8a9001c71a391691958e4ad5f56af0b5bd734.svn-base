@@ -1,0 +1,193 @@
+*{
+	margin:0 auto;
+}
+/*头部开始*/
+.hd{
+	height:190px;
+	/*border:1px solid red;*/
+}
+.hd_c1{
+	width:100%;
+	height:25px;
+	background: #cdcdcd;
+}
+.header_box{
+	height:70%;
+	width:50%;
+	float:left;
+	margin:4px 160px;
+}
+.header_box a{
+	text-decoration: none;
+	font-size: 13px;
+	color: #000000;
+}
+.header_box a:hover{
+	text-decoration: underline;
+}
+.hd_c2{
+	width:960px;
+	height:118px;
+	/*border:1px solid black;*/
+}
+.hd_c2_top{
+	width:960px;
+	height:85px;
+}
+.logo{
+	width: 50%;
+	padding-top:8px;
+	float: left;
+}
+.info{
+	width:50%;
+	height:100%;
+	float:right;
+	/*border:1px solid yellow;*/
+}
+.info table{
+	float:right;
+}
+.info table tr td{
+	font-size:12px;
+	margin:5px;
+	padding-top:10px;
+}
+#nv{
+	padding:0;
+	width:960px;
+	height:33px;
+	background:#2874C2;
+}
+#nv ul li{
+	list-style-type:none;
+	text-align:center;
+	line-height:40px;
+	margin-left:10px;
+	float:left;
+	
+	
+}
+#nv ul li a{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+}
+.hd_c3{
+	width:960px;
+	height:40px;
+	background:#E8EFF5;
+}
+
+.hd_c3 input{
+	width:300px;
+	height:30px;
+	float:left;
+	padding:12px;
+}
+.hd_c3 table{
+	float:left;
+	margin-left:20px;
+	margin-top:-4px;
+}
+.hd_c3_text{
+	text-align:center;
+	/*margin:10px;*/
+	font-size:14px;
+	color:blue;
+}
+/*头部结束*/
+/*身体开始*/
+.cont{
+	width:960px;
+	min-height: 420px;
+	border:1px solid #cdcdcd;
+}
+.cont_t{
+	width: 960px;
+	height:42px;
+	background:#F2F2F2;
+}
+.cont_t_t{
+	width:950px;
+	height:42px;
+	float:left;
+	/*border:1 solid red;*/
+	margin-left:5px;
+}
+.cont_t_t span{
+	float:right;
+	line-height:42px;
+	font-size:14px;
+	color:#376B92;
+}
+.cont_t_t a{
+	text-decoration: none;
+	color:#000000;
+}
+.cont_t_t a:hover{
+	text-decoration: underline;
+}
+.cont_t_t h2{
+	float: left;
+	margin-top:8px;
+	font-size:20px;
+}
+
+.cont_b{
+	width:960px;
+	min-height:395px;
+}
+
+/*注册信息框*/
+.reg_info{
+	width:760px;
+	min-height:340px;
+	margin: 20px auto;
+}
+.reg_table_right{
+	height:45px;
+}
+.reg_table_left{
+	width:125px;
+	text-align:right;
+}
+.reg_table_right input{
+	width:230px;
+	height:23px;
+}
+.reg_info tr{
+	height:45px;
+}
+.reg_info td{
+
+	border-bottom:1px dotted #cdcdcd;
+}
+.reg_info td span{
+	color: #ff0000;
+}
+.reg_info input:focus{
+	border:1px solid red;
+}
+/*身体结束*/
+/*尾部*/
+.footer{
+	width:960px;
+	height:100px;
+	margin-top:9px;
+	border-top:1px dotted #cdcdcd;
+}
+.f_left
+{
+	margin-top:10px;
+	float:left;
+}
+.f_right{
+	margin-top:10px;
+	float:right;
+}
+#rtop{
+	background-size:42px 33px;
+	position:fixed;
+}

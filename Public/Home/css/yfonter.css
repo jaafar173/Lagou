@@ -1,0 +1,25 @@
+#jihe{
+	width:100%;
+	height:90px;
+	background:#f2f2f2;
+}
+#jihe_left{
+	width:400px;
+	height:90px;
+	text-align:center;
+	line-height:90px;
+	color:#00c195;
+	font-size:20px;
+	float:left;
+}
+#jihe_right{
+	width:180px;
+	height:60px;
+	border:2px solid #00c195;
+	float:right;
+	margin-top:15px;
+	margin-right:150px;
+	text-align:center;
+	line-height:60px;
+	color:#00c195;
+}
